@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, TextInput, StyleSheet, Button} from 'react-native';
 
-const DeretTaylorApp = () => {
+const App = () => {
   const valRef = React.useRef(null);
   const [showNumber, setShowNumber] = React.useState(0);
   console.log(showNumber);
@@ -56,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default DeretTaylorApp;
+export default App;
